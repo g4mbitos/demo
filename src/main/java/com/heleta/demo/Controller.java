@@ -19,4 +19,9 @@ public class Controller {
         return "This is second test";
     }
 
+    @GetMapping("/test3")
+    public String test3(){
+        return "This is third test";
+    }
+
 }
